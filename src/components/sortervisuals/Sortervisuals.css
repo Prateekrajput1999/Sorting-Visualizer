@@ -1,0 +1,81 @@
+
+.array-holder{
+    text-align: center;
+}
+
+
+.value-bar{
+    width: 2px;
+    overflow: hidden;
+    display: inline;
+    margin: 0 1px;
+    background-color: #F50057;
+    font-size: 0px;
+    color:white;
+}
+
+.button{
+    background-color: #F50057;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button-container{
+    display: inline-block;
+    padding-left: 10px;
+}
+.vl{
+    display: inline-block;
+    
+}
+
+.Header{
+    overflow: hidden;
+    background-color: 
+    #697982;
+    padding: 20px 10px;
+}
+
+.horizontal-slider {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 20px;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .example-thumb {
+    z-index: 100;
+    background: #ffffff;
+    border: 5px solid #F50057;
+  }
+  .example-thumb.active {
+    background-color: grey;
+    display: inline-block;
+
+  }
+  .example-track {
+    position: relative;
+    background: #ddd;
+    display: inline-block;
+
+  }
+  .horizontal-slider .example-track {
+    top: 20px;
+    height: 4px;
+    display: inline-block;
+
+  }
+  .horizontal-slider .example-thumb {
+    top: 12px;
+    width: 10px;
+    outline: none;
+    height: 10px;
+    line-height: 38px;
+    display: inline-block;
+
+  }
